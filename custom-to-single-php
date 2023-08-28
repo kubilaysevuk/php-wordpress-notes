@@ -1,5 +1,5 @@
 <?php $post = $wp_query->post; if ( in_category('70') ) 
-{ include(TEMPLATEPATH . '/single-baskanlik-tasarim.php'); } 
+{ include(TEMPLATEPATH . '/single-pro.php'); } 
 elseif ( in_category('68') ) 
-{ include(TEMPLATEPATH . '/single-baskanlik-tasarim.php'); } 
+{ include(TEMPLATEPATH . '/single-pro.php'); } 
 else { include(TEMPLATEPATH . '/single-default.php'); } ?>
