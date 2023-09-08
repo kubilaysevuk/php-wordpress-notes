@@ -1,2 +1,3 @@
 <?php 
-'categort__in' => array(1);
+'category__in' => array(1),
+  ?>
