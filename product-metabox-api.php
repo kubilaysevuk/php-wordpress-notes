@@ -26,11 +26,11 @@ function get_custom_posts($request) {
             'urun_adi'      => $post->post_title,
             //'content'    => $post->post_content,
             'kisa_aciklama' => get_post_meta($post->ID, 'custom_metabox_field1', true), 
-			'barkod' => get_post_meta($post->ID, 'custom_metabox_field2', true), 
-			'stok_kodu' => get_post_meta($post->ID, 'custom_metabox_field3', true), 
-			'marka' => get_post_meta($post->ID, 'custom_metabox_field4', true), 
-			'kategori' => get_the_category($post->ID) ,
-			'fiyat' => get_post_meta($post->ID, 'custom_metabox_field5', true), 
+	    'barkod' => get_post_meta($post->ID, 'custom_metabox_field2', true), 
+	    'stok_kodu' => get_post_meta($post->ID, 'custom_metabox_field3', true), 
+	    'marka' => get_post_meta($post->ID, 'custom_metabox_field4', true), 
+	    'kategori' => get_the_category($post->ID) ,
+	    'fiyat' => get_post_meta($post->ID, 'custom_metabox_field5', true), 
         );
 
         $result[] = $post_data;
